@@ -9,12 +9,17 @@
 
 #header{
     height: 69px;
-    background-color: aliceblue;
     position: fixed;
     display: flex;
+}
+
+.logo{
+    float: right;
+    display: inline-flex;
 }
 
 .header{
     text-decoration: underline;
     display: inline-flex;
+    float: right;
 }
