@@ -7,11 +7,14 @@
     text-align: center;
 }
 
-nav{
+#header{
     height: 69px;
     background-color: aliceblue;
+    position: fixed;
+    display: flex;
 }
 
 .header{
     text-decoration: underline;
+    display: inline-flex;
 }
