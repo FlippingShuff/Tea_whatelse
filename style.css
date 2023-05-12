@@ -80,6 +80,7 @@
     background-image: url(./resources/img-locations-background.webp);
     width: 1200px;
     height: 500px;
+    flex-direction: column;
 }
 
 .locationhead{
@@ -99,5 +100,13 @@
 }
 .spots{
     opacity: 1;
+    height: 300px;
+    width: 300px;
+
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
 }
 
