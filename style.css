@@ -26,7 +26,6 @@
     text-decoration: underline;
     display: inline-flex;
     float: right;
-    margin: 0 10px;
 }
 .missionBG{
     display: flex;
@@ -35,9 +34,14 @@
     width: 1200px;
 }
 
+.missionBG img {
+    z-index: -1;
+}
+
 .mission{
     width: 100%;
     background-color: black;
+    display: flex;
 }
 
 .month{
