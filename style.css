@@ -40,6 +40,7 @@
 .month{
     align-items: center;
     display: flex;
+    width: 1000px;
 }
 
 .picturebox{
@@ -49,5 +50,9 @@
 .pictures{
     flex-direction: row;
     flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    align-items: center;
 }
 
