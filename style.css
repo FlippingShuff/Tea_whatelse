@@ -8,18 +8,20 @@
 }
 
 #header{
-   
+   position: fixed;
+   height: 69px;
 }
 
 .logo{
-    float: right;
+    float: left;
     display: inline-flex;
 }
 
 .header{
     text-decoration: underline;
     display: inline-flex;
-    float: right;
+    float: left;
+    margin: 0 10px;
 }
 .missionBG{
    
