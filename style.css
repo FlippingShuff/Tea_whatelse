@@ -62,3 +62,31 @@
     align-items: center;
 }
 
+.locations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./resources/img-locations-background.webp);
+    width: 1200px;
+    height: 500px;
+}
+
+.locationhead{
+    width: 100%;
+    margin-top: 60px;
+    
+}
+
+.spotstotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.spots{
+    opacity: 1;
+}
+
