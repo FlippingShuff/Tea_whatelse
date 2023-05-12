@@ -10,6 +10,7 @@
 #header{
    position: fixed;
    height: 69px;
+   z-index: 2;
 }
 
 .logo{
@@ -31,7 +32,7 @@
 
 .mission{
     align-items: center;
-
+    background-color: black;
 }
 
 .month{
