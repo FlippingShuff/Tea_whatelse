@@ -30,7 +30,6 @@
     height: 700px;
     width: 1200px;
     background-image: url(/resources/img-mission-background.webp);
-    align-self: center;
 }
 
 .mission{
@@ -40,6 +39,15 @@
 
 .month{
     align-items: center;
-    
+    display: flex;
+}
+
+.picturebox{
+    display: flex;
+}
+
+.pictures{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
