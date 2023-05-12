@@ -31,19 +31,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(./resources/img-mission-background.webp);
     width: 1200px;
     height: 700px;
-    background-image: url(./resources/img-mission-background.webp);
 }
 
-.missionBG img {
-    z-index: -1;
-}
 
 .mission{
     width: 100%;
     background-color: black;
-    display: flex;
 }
 
 .month{
@@ -60,8 +56,6 @@
 }
 
 .pictures{
-    flex-direction: row;
-    flex-wrap: wrap;
     max-width: 300px;
     max-height: 200px;
     margin-bottom: 10px;
