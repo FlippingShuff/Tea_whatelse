@@ -19,12 +19,10 @@
 .header{
     text-decoration: underline;
     display: inline-flex;
-    float: left;
+    float: right;
 }
 .missionBG{
-    display: flex;
-    height: 700px;
-    width: 1200px;
+   
     background-image: url(/resources/img-mission-background.webp);
 }
 
