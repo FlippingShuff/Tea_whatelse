@@ -24,7 +24,8 @@
     margin: 0 10px;
 }
 .missionBG{
-   
+   align-items: center;
+   justify-content: center;
     background-image: url(/resources/img-mission-background.webp);
 }
 
