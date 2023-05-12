@@ -27,6 +27,9 @@
     text-decoration: underline;
     display: inline-flex;
     float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 .missionBG{
     display: flex;
@@ -54,9 +57,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.pictures{
+.pictures img{
     max-width: 300px;
     max-height: 200px;
     margin-bottom: 10px;
