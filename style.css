@@ -51,13 +51,17 @@
     display: flex;
     width: 1000px;
     justify-content: center;
+    flex-direction: column;
+}
+
+.monthhead{
+    width: 100%;
 }
 
 .picturebox{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
     width: 100%;
 }
 
@@ -65,7 +69,8 @@
     max-width: 300px;
     max-height: 200px;
     margin-bottom: 10px;
-    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .locations{
