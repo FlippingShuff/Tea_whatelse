@@ -16,22 +16,24 @@
 .logo{
     float: left;
     display: inline-flex;
+    height: 50px;
+    margin-left: 10px;
 }
 
 .header{
     text-decoration: underline;
     display: inline-flex;
-    float: left;
+    float: right;
     margin: 0 10px;
 }
 .missionBG{
-   align-items: center;
-   justify-content: center;
-    background-image: url(/resources/img-mission-background.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mission{
-    align-items: center;
+    width: 100%;
     background-color: black;
 }
 
