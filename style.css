@@ -25,3 +25,15 @@
     display: inline-flex;
     float: right;
 }
+.missionBG{
+    margin-top: 69px;
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url(/resources/img-mission-background.webp);
+}
+
+.mission{
+    align-items: center;
+    
+}
