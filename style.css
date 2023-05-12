@@ -32,6 +32,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(./resources/img-mission-background.webp);
+    width: 1200px;
 }
 
 .mission{
