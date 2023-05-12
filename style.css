@@ -13,13 +13,13 @@
    width: 100%;
    z-index: 2;
    background-color: black;
+   align-items: center;
 }
 
 .logo{
     float: left;
     display: inline-flex;
     height: 50px;
-    margin-left: 10px;
 }
 
 .header{
