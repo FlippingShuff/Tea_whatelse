@@ -32,6 +32,8 @@
     align-items: center;
     justify-content: center;
     width: 1200px;
+    height: 700px;
+    background-image: url(./resources/img-mission-background.webp);
 }
 
 .missionBG img {
