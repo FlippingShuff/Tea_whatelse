@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-#header{
+.header{
    position: fixed;
    display: flex;
    align-items: center;
@@ -23,7 +23,7 @@
     height: 50px;
 }
 
-.header{
+.headerbuttons{
     text-decoration: underline;
     display: inline-flex;
     justify-content: right;
