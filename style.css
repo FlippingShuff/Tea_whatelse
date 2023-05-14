@@ -10,7 +10,7 @@
 .header{
    position: fixed;
    display: flex;
-   justify-content: center;
+   align-items: center;
    height: 69px;
    width: 100%;
    z-index: 2;
@@ -51,7 +51,7 @@
     width: 1000px;
     justify-content: center;
     flex-direction: column;
-    margin: 0 50%;
+    margin-left: 50%;
 }
 
 .picturebox{
