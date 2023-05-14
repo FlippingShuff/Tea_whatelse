@@ -25,10 +25,8 @@
 
 .headerbuttons{
     text-decoration: underline;
-    display: inline-flex;
     justify-content: right;
     margin-left: 20px;
-    float:right;
     margin-right: 0;
 
 }
