@@ -26,7 +26,7 @@
 .header{
     text-decoration: underline;
     display: inline-flex;
-    float: right;
+    justify-content: flex-end;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -45,6 +45,10 @@
     width: 100%;
     background-color: black;
 }
+.mission h2{
+    font-size: large;
+}
+
 
 .month{
     align-items: center;
@@ -54,15 +58,14 @@
     flex-direction: column;
 }
 
-.monthhead{
-    width: 100%;
-}
+
 
 .picturebox{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 1000px;
+    flex-direction: row;
 }
 
 .pictures img{
@@ -86,6 +89,7 @@
 .locationhead{
     width: 100%;
     margin-top: 60px;
+    background-color: transparent;
     
 }
 
@@ -94,7 +98,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    justify-content: space-between;
     width: 80%;
 
 }
@@ -102,11 +105,15 @@
     opacity: 1;
     height: 300px;
     width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
 .copyright{
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
     margin-left: 20px;
 }
 
