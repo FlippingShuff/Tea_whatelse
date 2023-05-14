@@ -19,11 +19,13 @@
 }
 
 .logo{
-    float: left;
+    display: inline-flex;
+    justify-content: left;
     height: 50px;
 }
 
 .headerbuttons{
+    display: inline-flex;
     text-decoration: underline;
     justify-content: right;
     margin-left: 20px;
