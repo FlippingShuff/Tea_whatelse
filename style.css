@@ -27,6 +27,7 @@
     display: flex;
     justify-content: flex-end;
     text-decoration: underline;
+    margin-right: 20px;
 }
   
 .headerbuttons p {
