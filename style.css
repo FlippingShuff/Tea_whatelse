@@ -13,23 +13,24 @@
     justify-content: space-between;
     align-items: center;
     z-index: 2;
-  }
+}
   
-  .logo {
+.logo {
     order: 1;
     margin-left: 10px;
     height: 50px;
-  }
+}
   
-  .headerbuttons {
+.headerbuttons {
     order: 2;
     display: flex;
     justify-content: flex-end;
-  }
+    text-decoration: underline;
+}
   
-  .headerbuttons p {
+.headerbuttons p {
     margin: 0 10px;
-  }
+}
 
 .missionBG{
     display: flex;
